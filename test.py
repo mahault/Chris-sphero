@@ -10,6 +10,6 @@ with SpheroEduAPI(toy) as bolt:
 
     bolt.set_main_led(Color(0, 255, 0))  # ✅ NOT a tuple
 
-    bolt.roll(speed=50, heading=0)
+    bolt.roll(speed=50, heading=0, duration=2)
     time.sleep(2)
     bolt.stop()
